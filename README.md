@@ -59,6 +59,6 @@ O projeto destacou-se pela complexidade no tratamento e relacionamento de múlti
 👨‍💻 Autor
 Wilderson "Will" Pinto | Business Intelligence & Data Analytics
 
-💼 Meu Portfólio Completo (Notion)(https://wise-whippet-9ea.notion.site/Engenharia-de-Dados-e-BI-Transformando-dados-complexos-em-decis-es-de-neg-cios-eaaa0811698d416ea465b87115d2f9ff?pvs=143)
+💼 [Meu Portfólio Completo (Notion)](https://wise-whippet-9ea.notion.site/Engenharia-de-Dados-e-BI-Transformando-dados-complexos-em-decis-es-de-neg-cios-eaaa0811698d416ea465b87115d2f9ff?pvs=143)
 
-🔗 Meu LinkedIn(www.linkedin.com/in/will-mp)
+🔗 [Meu LinkedIn](www.linkedin.com/in/will-mp)
