@@ -1,0 +1,275 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                margin: 0;
+                padding: 0;
+                width: 1280px; /* Largura fixa de 1280px */
+                height: 720px; /* Altura fixa de 720px */
+                overflow: hidden; /* Garantir que não tenha barras de rolagem */
+            }
+
+            .guide-container {
+                width: 100%;
+                height: 100%;
+                max-width: 1280px;
+                margin: auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow-y: auto; /* Permite rolagem no conteúdo se necessário */
+            }
+
+            .guide-title {
+                font-size: 36px;
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            .button-item {
+                display: flex;
+                align-items: center;
+                padding: 15px 0;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .button-item:last-child {
+                border-bottom: none;
+            }
+
+            .button-icon {
+                width: 30px;
+                height: 30px;
+                margin-right: 20px; /* Espaçamento entre ícone e texto */
+            }
+
+            .button-name {
+                font-size: 20px;
+                font-weight: bold;
+                color: #0066cc;
+            }
+
+            .button-description {
+                font-size: 16px;
+                color: #555;
+                margin-top: 5px;
+            }
+
+            .button-item + .button-item {
+                margin-top: 20px;
+            }
+
+            .guide-item {
+                display: flex;
+                align-items: center;
+                padding: 15px 0;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .guide-item:last-child {
+                border-bottom: none;
+            }
+
+            .guide-item-icon {
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+
+            .guide-item-description {
+                font-size: 16px;
+                color: #555;
+                margin-top: 5px;
+            }
+
+            .guide-item + .guide-item {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='guide-container'>
+            <div class='guide-title'>Guia do Usuário - Análise E-commerce Olist</div>
+
+            <!-- Home Page -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='25' height='31' viewBox='0 0 512 512'><rect width='512' height='512' fill='none'/><path fill='currentColor' d='M261.56 101.28a8 8 0 0 0-11.06 0L66.4 277.15a8 8 0 0 0-2.47 5.79L63.9 448a32 32 0 0 0 32 32H192a16 16 0 0 0 16-16V328a8 8 0 0 1 8-8h80a8 8 0 0 1 8 8v136a16 16 0 0 0 16 16h96.06a32 32 0 0 0 32-32V282.94a8 8 0 0 0-2.47-5.79Z'/><path fill='currentColor' d='m490.91 244.15l-74.8-71.56V64a16 16 0 0 0-16-16h-48a16 16 0 0 0-16 16v32l-57.92-55.38C272.77 35.14 264.71 32 256 32c-8.68 0-16.72 3.14-22.14 8.63l-212.7 203.5c-6.22 6-7 15.87-1.34 22.37A16 16 0 0 0 43 267.56L250.5 69.28a8 8 0 0 1 11.06 0l207.52 198.28a16 16 0 0 0 22.59-.44c6.14-6.36 5.63-16.86-.76-22.97'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>🏠 Home Page</div>
+                    <div class='button-description'>Página inicial com apresentação visual do projeto e navegação para as demais seções. Contém o logo e identidade visual da Olist, além de KPIs principais do negócio para uma visão geral rápida dos indicadores mais importantes.</div>
+                </div>
+            </div>
+
+            <!-- Customers -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2m4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H17c-.8 0-1.54.37-2.01.99L14 10h-2l-.99-1.01A2.5 2.5 0 0 0 9 8H7.46c-.8 0-1.54.37-2.01.99L3 10.5V22h2v-6h2.5l2.5-6h2l2.5 6H14v6h2m-8-12c.83 0 1.5-.67 1.5-1.5S8.83 7 8 7 6.5 7.67 6.5 8.5 7.17 10 8 10m-1 12v-6H5v6h2m8-12c.83 0 1.5-.67 1.5-1.5S16.83 7 16 7s-1.5.67-1.5 1.5S15.17 10 16 10'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>👨‍👩‍👧‍👦 Customers (Clientes)</div>
+                    <div class='button-description'>Análise abrangente do comportamento e perfil dos clientes. Inclui distribuição geográfica com mapa interativo, análise demográfica por estado e cidade, comportamento de compra com frequência e valor, e segmentação de clientes por valor e recência. Permite identificar mercados prioritários, padrões de comportamento e oportunidades de expansão geográfica.</div>
+                </div>
+            </div>
+
+            <!-- Sellers -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>👥 Sellers (Vendedores)</div>
+                    <div class='button-description'>Análise de performance e distribuição dos vendedores da plataforma. Contém rankings e métricas de vendas, distribuição regional dos vendedores, análise de produtos por vendedor, e métricas de qualidade com avaliações dos clientes. Identifica top performers, oportunidades de expansão da base de vendedores e estratégias de desenvolvimento.</div>
+                </div>
+            </div>
+
+            <!-- Leads -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>🎯 Leads</div>
+                    <div class='button-description'>Acompanhamento do funil de vendas e análise de conversão de leads. Visualiza o processo de qualificação e fechamento, taxa de conversão, tendências temporais de geração e conversão, e performance por origem de captação. Identifica gargalos no funil, otimiza processos de qualificação e analisa ROI por canal de marketing.</div>
+                </div>
+            </div>
+
+            <!-- Interação -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 32 32'><rect width='32' height='32' fill='none'/><path fill='currentColor' d='M26 6H4v3.17l7.41 7.42l.59.58V26h4v-2h2v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8l-7.41-7.41A2 2 0 0 1 2 9.17V6a2 2 0 0 1 2-2h22Z'/><path fill='currentColor' d='m29.71 11.29l-3-3a1 1 0 0 0-1.42 0L16 17.59V22h4.41l9.3-9.29a1 1 0 0 0 0-1.42M19.59 20H18v-1.59l5-5L24.59 15ZM26 13.59L24.41 12L26 10.41L27.59 12Z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>Interação</div>
+                    <div class='button-description'>Indica que o usuário pode interagir com o visual realizando filtros, segmentações e inserindo informações. Use os controles de filtro para refinar os dados exibidos e obter insights mais específicos sobre diferentes segmentos do negócio.</div>
+                </div>
+            </div>
+
+            <!-- Drill Down -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg width='16' height='31' viewBox='0 0 16 31' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M9 1C9 0.447715 8.55228 0 8 0C7.44772 0 7 0.447715 7 1L9 1ZM7.29289 30.7071C7.68342 31.0976 8.31658 31.0976 8.70711 30.7071L15.0711 24.3431C15.4616 23.9526 15.4616 23.3195 15.0711 22.9289C14.6805 22.5384 14.0474 22.5384 13.6569 22.9289L8 28.5858L2.34315 22.9289C1.95262 22.5384 1.31946 22.5384 0.928932 22.9289C0.538408 23.3195 0.538408 23.9526 0.928932 24.3431L7.29289 30.7071ZM8 1L7 1L7 30H8H9L9 1L8 1Z' fill='black'/>
+                    </svg>
+                </div>
+                <div>
+                    <div class='button-name'>Drill Down</div>
+                    <div class='button-description'>Permite selecionar um dado específico para detalhar em nível inferior. Clique em qualquer elemento do gráfico para explorar os dados em maior profundidade, como visualizar detalhes de um estado específico ou período de tempo.</div>
+                </div>
+            </div>
+
+            <!-- Drill Up -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg width='16' height='31' viewBox='0 0 16 31' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M7 30C7 30.5523 7.44772 31 8 31C8.55228 31 9 30.5523 9 30L7 30ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928931 6.65685C0.538407 7.04738 0.538407 7.68054 0.928931 8.07107C1.31946 8.46159 1.95262 8.46159 2.34314 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM8 30L9 30L9 1L8 1L7 1L7 30L8 30Z' fill='black'/>
+                    </svg>
+                </div>
+                <div>
+                    <div class='button-name'>Drill Up</div>
+                    <div class='button-description'>Sobe um nível na hierarquia de dados. Use este recurso para retornar a uma visualização mais ampla após ter feito drill down em dados específicos.</div>
+                </div>
+            </div>
+
+            <!-- Filtros e Segmentações -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg width='28' height='26' viewBox='0 0 28 26' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M26.3298 1.5H1.67017C1.23005 1.5 1.00463 2.02757 1.30885 2.34561L11.3529 12.8462C11.4469 12.9445 11.4968 13.0768 11.4911 13.2126L11.0217 24.4792C11.0099 24.7632 11.237 25 11.5213 25H16C16.2761 25 16.5 24.7761 16.5 24.5V13.2006C16.5 13.0719 16.5497 12.9481 16.6387 12.855L26.6912 2.34561C26.9954 2.02757 26.7699 1.5 26.3298 1.5Z' stroke='black' stroke-width='2'/>
+                    </svg>
+                </div>
+                <div>
+                    <div class='button-name'>Filtros e Segmentações</div>
+                    <div class='button-description'>Mostra os filtros aplicados ou removidos. Use os painéis de filtro para segmentar os dados por período, região, categoria de produto, status do pedido ou qualquer outra dimensão disponível no modelo.</div>
+                </div>
+            </div>
+
+            <!-- Modo Foco -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg width='27' height='22' viewBox='0 0 27 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M13 1H2C1.72386 1 1.5 1.22386 1.5 1.5V20C1.5 20.2761 1.72386 20.5 2 20.5H13M13 20.5V13.5C13 13.2239 12.7761 13 12.5 13H2.5M13 20.5H25C25.2761 20.5 25.5 20.2761 25.5 20V13' stroke='black' stroke-width='2'/>
+                        <path d='M25.875 1C25.875 0.516751 25.4832 0.125 25 0.125H17.125C16.6418 0.125 16.25 0.516751 16.25 1C16.25 1.48325 16.6418 1.875 17.125 1.875H24.125V8.875C24.125 9.35825 24.5168 9.75 25 9.75C25.4832 9.75 25.875 9.35825 25.875 8.875V1ZM16 10L16.6187 10.6187L25.6187 1.61872L25 1L24.3813 0.381282L15.3813 9.38128L16 10Z' fill='black'/>
+                    </svg>
+                </div>
+                <div>
+                    <div class='button-name'>Modo Foco</div>
+                    <div class='button-description'>Destaca uma área específica dos dados para análise. Use este recurso para focar em um visual específico, ocultando temporariamente outros elementos da página para uma análise mais detalhada.</div>
+                </div>
+            </div>
+
+            <!-- Informativo -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 512 512'><rect width='512' height='512' fill='none'/><path fill='currentColor' fill-rule='evenodd' d='M448 128v320H128V128zm-42.667 42.667H170.667v234.666h234.666zM384 64v42.667l-277.334-.001V384H64V64zm-21.333 234.667v42.666H213.333v-42.666zm0-85.334V256H213.333v-42.667z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>Informativo</div>
+                    <div class='button-description'>Onde estiver este ícone indica que ao passar o cursor sobre o visual será exibido mais detalhes. Use tooltips para obter informações adicionais sobre métricas, definições e contexto dos dados apresentados.</div>
+                </div>
+            </div>
+
+            <!-- Mais Opções -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg width='26' height='5' viewBox='0 0 26 5' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                        <circle cx='2.5' cy='2.5' r='2.5' fill='black'/>
+                        <circle cx='13.5' cy='2.5' r='2.5' fill='black'/>
+                        <circle cx='23.5' cy='2.5' r='2.5' fill='black'/>
+                    </svg>
+                </div>
+                <div>
+                    <div class='button-name'>Mais Opções</div>
+                    <div class='button-description'>
+                        Clique para acessar opções adicionais, como:
+                        <ul>
+                            <li><strong>Exportar Dados:</strong> Permite a exportação dos dados em formato **XLSX** (máximo 150 mil linhas) ou **CSV** (máximo 30 mil linhas).</li>
+                            <li><strong>Mostrar Como Tabela:</strong> Exibe os dados do gráfico ou visual em formato de tabela, facilitando a visualização detalhada de todos os valores.</li>
+                            <li><strong>Destacar:</strong> Use para destacar um conjunto de dados ou valores no gráfico, facilitando a visualização de informações específicas.</li>
+                            <li><strong>Classificar em Ordem:</strong> Organize os dados em ordem crescente ou decrescente com base nos valores selecionados, como maior para menor ou vice-versa.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navegação entre Páginas -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>Navegação entre Páginas</div>
+                    <div class='button-description'>Use os botões de navegação no canto inferior direito para alternar entre as diferentes páginas do relatório. Cada página oferece uma perspectiva específica dos dados: Home, Customers, Sellers e Leads.</div>
+                </div>
+            </div>
+
+            <!-- Atualização de Dados -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>Atualização de Dados</div>
+                    <div class='button-description'>Os dados são atualizados automaticamente conforme configurado. Para forçar uma atualização manual, use o botão de refresh no Power BI Service ou aguarde o próximo ciclo de atualização programado.</div>
+                </div>
+            </div>
+
+            <!-- Responsividade -->
+            <div class='button-item'>
+                <div class='button-icon'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><rect width='24' height='24' fill='none'/><path fill='currentColor' d='M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z'/></svg>
+                </div>
+                <div>
+                    <div class='button-name'>Acesso Mobile</div>
+                    <div class='button-description'>O relatório é otimizado para visualização em dispositivos móveis. Use o aplicativo Power BI Mobile para acessar os dados em smartphones e tablets, mantendo a funcionalidade completa de filtros e interações.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
