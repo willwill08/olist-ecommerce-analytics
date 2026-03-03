@@ -55,7 +55,7 @@ O projeto destacou-se pela complexidade no tratamento e relacionamento de múlti
  ┣ 📂 power_bi/               # Arquivo principal do Dashboard (.pbix)
  ┣ 📂 sql_scripts/            # Queries utilizadas na exploração dos dados
  ┗ 📜 README.md               # Apresentação do projeto
-
+```
 👨‍💻 Autor
 Wilderson "Will" Pinto | Business Intelligence & Data Analytics
 
