@@ -31,10 +31,10 @@ O projeto destacou-se pela complexidade no tratamento e relacionamento de múlti
 *(Adicione as imagens do painel na pasta assets e ajuste os nomes abaixo se necessário)*
 
 ### 1. Visão Geral e Performance de Vendas
-<img src="./assets/01-Visao-Geral.png" width="800">
+<img src="./assets/clientes.png" width="800">
 
 ### 2. Análise de Logística e Satisfação (Review Score)
-<img src="./assets/02-Logistica-Reviews.png" width="800">
+<img src="./assets/vendedores.png" width="800">
 
 ---
 
